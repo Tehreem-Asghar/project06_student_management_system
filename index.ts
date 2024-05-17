@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import Student from "./student.js";
 import inquirer from "inquirer";
 import chalk from "chalk";

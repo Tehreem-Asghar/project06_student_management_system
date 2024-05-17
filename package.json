@@ -1,9 +1,13 @@
 {
-  "name": "project06_student_management_system",
+  "name": "@t_ehreem/project06_student_management_system",
   "version": "1.0.0",
   "description": "create a simple cli project \"Student managment System\"",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
